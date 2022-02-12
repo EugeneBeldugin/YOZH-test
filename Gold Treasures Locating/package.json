@@ -1,0 +1,14 @@
+{
+  "name": "gold-treasures-locating",
+  "version": "1.0.0",
+  "description": "",
+  "main": "\u001b[D\u001b[D\u001b[D\u001bsolution.js)",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "eugene",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}

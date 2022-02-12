@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      body {
+         background-color: #F6F0F5;
+         margin: 0;
+         font-family: Arial, Helvetica, sans-serif
+      }
+      .modal {
+         background-color: #fff;
+         width: 500px;
+         margin: 20px auto;
+         border-radius: 25px;
+         padding: 30px;
+      }
+      .modal__upper-block {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         font-size: 20px;
+      }
+      .modal__title {
+         margin: 0;
+      }
+      .modal__button {
+         font-size: 20px;
+         color: #fff;
+         background-color: #D52F6F;
+         padding: 10px;
+         border-radius: 15px;
+         border: none;
+         cursor: pointer;
+         letter-spacing: 3px;
+      }
+      .modal__total-price {
+         font-size: 55px;
+         color: #367A3D;
+      }
+      .modal__bottom-block {
+         background-color: #F7F8FA;
+         padding: 10px 25px;
+         border-radius: 20px;
+         border: solid 1px #ecedee;
+         margin: 15px 0;
+      }
+      .modal__price-type {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         font-size: 20px;
+         color: #5A5D6B;
+         margin: 10px 0;
+      }
+      .price-name {
+         display: flex;
+         align-items: center;
+      }
+      .price-icon {
+         margin-right: 15px;
+         height: 30px;
+      }
+   </style>
+</head>
+<body>
+   <div class="modal">
+      <div class="modal__upper-block">
+         <h3 class="modal__title">Unclaimed fees</h3>
+         <button class="modal__button">Collect fees</button>
+      </div>
+      <span class="modal__total-price">$8.80</span>
+      <div class="modal__bottom-block">
+         <div class="modal__price-type">
+            <div class="price-name">
+               <svg class="price-icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="36px" height="36px" viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">  <image id="image0" width="36" height="36" x="0" y="0"
+                  href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAIAAABuYg/PAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+              AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAA
+              CXBIWXMAAAsTAAALEwEAmpwYAAAKkUlEQVRIx4VX2XJd13Hd05nvfAECFxcTMZKgKFOyA0nlkqr8
+              A/kBf0RenXK+zK5KqizJUSTaMkUSIAgKwjzc6czDHjsPFyKhyHb66dSu6l69++xeqxsXJUf/1AxA
+              Jcww4WdDPohFUkihDMHYt2mnbs+37X7HbdWYxQj6/4z93VMAQAhxBZfj6sVJdnCejVKRFCqvNFeg
+              DWCELIZdm9Vd2q6x5Vnv4VKw3Q+aPiMEY4z/blj885sZA2mpTofVd8fJq/P8KuRxroQySoMBZAzA
+              1BMjSjAl2KI4cGm7ZvU7zkfbrc2e323YtkXIzyB/AgYASsMoEd8epc9P0oOLfBBxoWAa+hbkHxjB
+              yLXpZs/fWQrev99Ym/eagfV/8NhdJKHMTSS+fh1/sR+eDsuCGwRgUWwxYjNccC013IWkBPsOBQCh
+              QGkohX5xmt1EfJTKgrcerdTagXW3pOwu0uWEf/06+sO346uQawOMYN9l7Zo107DrPts/S8eplOoW
+              DWMUuGRrIaAUR5mcpDItFVfmJhL5QVwKAwg9uV+vuQxjNIVk01S1gYtx9fle+Mdvx4NYYIQsC7cC
+              a2M++MVaY6MXWAynpUoKLZW+rRtCrcD69aPOYtcbJXzvNN0/yy7GJZeQlurpm7jkGgD9y2bDtShC
+              8O5mk1Q+PYw/fxmOEokRcmzS77pP1hofrrdWZj1t4GRQFJXW5l0RAaFK6jAV6/P+49XG6px3f97/
+              r+ej00GZlYYLc3hVOM/HDZ/uLNYsRjBG9Pe//w9j4OvX8Z9ehseDSgPYFlmd8z552PnlRqtTt64j
+              /s2b6KuD8HhQcmksRjybMIoNgNSQljqrFCBoBnav7TYDqxSmrLRQIBSUwigFaz3fsykhmAHA6ah8
+              dpyeDEupjG2RXsf59cPOeysNi+GD8+xvP8RHV+UoFSXXrkWWZr35tlMJs3+WZpU6G5ZZpa4m/MES
+              31mq7SzWESCC8avzLMpklMvvTpKd5WB3q1n3GKuEeX6cvbkq0lIzirt168P15pP1BsH49UX+zWF0
+              cJYlhdIAjOJmwLb6wcOlepzLYcy5NFyam1CkhQozmRXqs0fdzX7AlSmFroQphR7E4s+vovtznm9T
+              Nk7l3mk2jAUABB5bnfN3N1sNj704SZ8eRq/OsiiTCCOLktmWvT7vby0E6/N+XKgfrgtlYBiLUuis
+              0ieDgktdc9nHD9vbi7VxIkaxuJxoqeDlWXYyrGabNv3X3/7bVwfxMJGEoF7H/eVG68la8zqqvtwL
+              986yKJcAyGL4XtP51Wbzg7Xm6pzf8Jlt0cBlDiN5pUqulQJlUCVNzvVsw+53HUbxOJWDSCgNxqBu
+              w+53XHY8LMeZkNo0PNrrOBsLPqXo+Un6+iIPM6kNYgS3Auvjh+3PHnVdm8S5HMTCs8n9Ob/fdSjF
+              XE7OxxUYJKQ5HRbfHSe9tjvXctfng8PLvBRCanN0XQwTwc4HZSUMwbgZWP2uN9OwR4l88UM6SoTW
+              gKZtMOPubrUCl3xzGD19Ew9j3vStD9ebu1vtzX7tzXVxHQlhDAAquXl9kW/3i0fL9X7XnWs5k1Qq
+              DVEmRzFnN7GQCijBNY91G7bNyNF1dhNzLg38yLaBy5qBBYCiXA1jMYxElCljEBdGGhNl4i2JAaBx
+              Ki4n1XovaAZspmFbDGsNWaUnmWRhppQGi+HAoQ2PGUAX4yqvtLnjL7Xh0rQCa6Htrs35NsUFN1Eu
+              /3oUT4n7brNXwgxjkXMdOLThM5uRSphKmKTQLOdaAziYuBZ1baI1jBOh1G2uAEgoM07E4WX+3nJ9
+              dc73HDqMeZyrpFRhJq4mXP2UnbWGuFCl0E2f+Q61KMYISW1KoZnUBgBhjChFhOCpLps73lKZm5D/
+              96sJAlic8Xodp991jTFSwzgVL0/Tv32fnI+rtwSNEBLKKGUIRoxiSjBGyBhQ2jD6owYA3CoWweiu
+              CgGgQpiD8ywr1ELXnW3Y7bo127AXut7jlUa3bhdch7mMMnVX2zDG8GNMQIhgRAhinkMLYQwgqUFp
+              YIQEHpuq7DRVQrBjYd+mo1TeRJwS7Nq0U7e2+sFvHs/MtZylGW//NI9z9aOEI8+mDiNgkFBm+qQZ
+              Ja5FWbduxYXSBvJKZZUiFC/Oeo5NC64BEMGo7tGHS7Xd7fYg4n95E5+PqrTQWakpwe+vilbNsi1i
+              sXe1cBiZadqBR7nUSa641ICQ79CWz9h8yzkfV6UwaanHqdAaVma8mYaVl4pLgxAiGPsOXZvzFrvu
+              9CTKpWfTmaZTc5lUJi1UJfRbRW3WWL/j+jYdxHyciulUUXNpp26xhY7tnpKCm7RUg0ikpbrXctbn
+              /TCV41QaA0KZYSKuQ75yz/9grdmt21EubYsszXqBS8+G1dmwTEs9fWWM4qWut9j1CMbDWAwToQAw
+              Qq0a69QttjTjNAMWFyqv9NWkuhxX8217Z7l+FfJSmKxSlTAXo+qrg1AbdK9pP16tE4wBIanNxbh6
+              dpQcXRcF19ORpFu3HyzW7rWctFSnwzLMJACyKF7sup2axVbuuYtdd5TIrFLXYfXqPFvv+Ru94Drk
+              eaXPhlBJHeXyr2+SOFfb/drj1frSjJdz/eyHdO8kPbouw0xqA4zius92lmuPVhqOhffPiqPrvOAa
+              I1Rz2YN+0K1brNd2tnr+8aBMChWm6uVpsjzrfvSg8+FGSyiQykx7KC7U8+N0lAiEEaUkyuUXLydT
+              7QZAjOKGzzYXgt+83+3PuMc3+fOT9GxYaQ2U4tU5d23erXuUUYI+WK8dXueDWFTCDCLx5X7Yrtv3
+              5/zdrRYl6JvD6GJUVdIoA2mpTgYFJTgrVZhJpQEhZDPcbdgPFoPdrdb6fO1qUv3lMP7+sii5wRi3
+              fPbZTqsdMISA/u53/+5YRCgzTuQolRpQKYyQuu6xuZbTazutmkUJKYWWyigNeaVvQn4+rsJUKA01
+              l24uBB9vtz7abt+fC6JMfrkfPjtOhjGXGho++2C98enDVqvGKMFsmtrDRT/MVCXhdFQlhXp5mikN
+              T9bkei94b6Wx0HE3Fvz/fDa6CnmYqTjXgMAYaPhsd6v1i7XG0oxnMXI+qv7nIHx5mg4iISQ0fbaz
+              FHz6oDFTZ9Ot43aUm21YH9yvcQVSm8sJDzP54iRNSxVm8sFSvVO3Hi3Xvz1KBrEUUk+5hRIUOHS9
+              F/TabiXNm6t87zR7dhTHhVIa6h7b6vufPGhs9z2b3a4a7O0gvdCxf7Vek8r8+SAexjIp9OFlHhfq
+              csKXZt2axwr+E3oHQNLATcRLrkeJOBkW56MqyRUA8l260fM+2my8v1zzHfpusQijBACmUYQy15H8
+              0178xX40SZXSgDFyLRJ4NHDYIOYF18a842jHIjMNGwByrkuulQaCsWeT7X7w6U7zyf2g6d/yPJku
+              UnfBAMAAKrh++ib7fD/+/rpMS20MTId1A/DzRYbg2+kYAbIonmlauxv1T7YbyzOua5Op4zsLo2QK
+              8xZPGyi4uQzF3lm+d16cDfkkk1L9w42JElRz6WzTXpl1djfrq/fcpsdsCxN8+6v+Gdj0S0gTF/o6
+              FOdjfjHho1QPYxnlMudGaSAY2RZp+LQTWLNN1mvbC217oePMtSzfJm+XT/xTvP8FuvIMC7/qSS0A
+              AAAldEVYdGRhdGU6Y3JlYXRlADIwMjItMDItMTJUMDM6MDk6MjErMDM6MDDhRqOAAAAAJXRFWHRk
+              YXRlOm1vZGlmeQAyMDIyLTAyLTEyVDAzOjA5OjIxKzAzOjAwkBsbPAAAAABJRU5ErkJggg==" />
+              </svg>
+               <span>USDC</span>
+            </div>
+            <span class="price">4.74</span>   
+         </div>
+         <div class="modal__price-type">
+            <div class="price-name">
+               <svg class="price-icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="37px" height="36px" viewBox="0 0 37 36" enable-background="new 0 0 37 36" xml:space="preserve">  <image id="image0" width="37" height="36" x="0" y="0"
+                  href="data:image/png;base64,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" />
+              </svg>
+               <span>USDT</span>
+            </div>
+            <span class="price">4.065</span>  
+         </div>
+      </div>
+   </div>
+</body>
+</html>
